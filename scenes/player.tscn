@@ -1,12 +1,14 @@
 [gd_scene format=3 uid="uid://cqqiyl7cxwi8f"]
 
 [ext_resource type="PackedScene" uid="uid://bw5tyh3hr2gqo" path="res://art/cop.glb" id="1_3vyb7"]
+[ext_resource type="Script" uid="uid://cggoe7fgglr" path="res://scenes/player.gd" id="1_g2els"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_xrivr"]
 radius = 0.36035156
 height = 1.8469238
 
 [node name="Player" type="CharacterBody3D" unique_id=210428260]
+script = ExtResource("1_g2els")
 
 [node name="Cop" parent="." unique_id=1344588577 instance=ExtResource("1_3vyb7")]
 
