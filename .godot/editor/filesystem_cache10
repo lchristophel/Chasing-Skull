@@ -1,9 +1,9 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1794509582
+::res://::1794516842
 default_bus_layout.tres::AudioBusLayout::-1::1794507013::0::1::::<><><>0<>0<><>::
 default_env.tres::Environment::-1::1794507013::0::1::::<><><>0<>0<><>::
 icon.png::CompressedTexture2D::4257438768798216798::1606009720::1794507031::1::::<><><>0<>0<>fcb1adebf8f6ee42691344cb66153566<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
-::res://art/::1794509582
+::res://art/::1794519295
 body.material::StandardMaterial3D::-1::1605908508::0::1::::<><><>0<>0<><>::
 cop.glb::PackedScene::3993703469527696142::1794509576::1794509583::1::::<><><>0<>0<>67d3bfa7ad7c215972b170147ac0fbeb<>res://.godot/imported/cop.glb-88b9493682ea1fd0371dc3482856f9fc.scn::
 eye.material::StandardMaterial3D::-1::1606514142::0::1::::<><><>0<>0<><>::
@@ -12,8 +12,11 @@ mob.glb::PackedScene::7887154525300089839::1606513980::1794507033::1::::<><><>0<
 mob_eye.material::StandardMaterial3D::-1::1605969815::0::1::::<><><>0<>0<><>::
 player.glb::PackedScene::8165836764453025589::1606514058::1794507033::1::::<><><>0<>0<>d76850697f774c55995496ddb081980b<>res://.godot/imported/player.glb-08dcfb373480a049995065542e37637b.scn::
 pupil.material::StandardMaterial3D::-1::1606514142::0::1::::<><><>0<>0<><>::
+voleur_lowpoly.glb::PackedScene::2415517733859531464::1794519295::1794519296::1::::<><><>0<>0<>a03dbbb9e2991e6893f2b5e8685b174a<>res://.godot/imported/voleur_lowpoly.glb-8ed60ad2ac25bc2d6a83635398ade59c.scn::
 ::res://fonts/::1794507031
 LICENSE.txt::TextFile::-1::1605988452::0::1::::<><><>0<>0<><>::
 Montserrat-Medium.ttf::FontFile::6373089313451562863::1323702000::1794507031::1::::<><><>0<>0<>26d9c509f3b4b2235caf27727618ca17<>res://.godot/imported/Montserrat-Medium.ttf-e832861e4ad4110e172112dc430c04b0.fontdata::
-::res://scenes/::1794507773
-main.tscn::PackedScene::6990564927160216247::1794507773::0::1::::<><><>0<>0<><>::
+::res://scenes/::1794519216
+main.tscn::PackedScene::6990564927160216247::1794517591::0::1::::<><><>0<>0<><>::uid://cqqiyl7cxwi8f::::res://scenes/player.tscn
+player.tscn::PackedScene::5929422131968600423::1794519216::0::1::::<><><>0<>0<><>::uid://bw5tyh3hr2gqo::::res://art/cop.glb<>uid://cggoe7fgglr::::res://scenes/player.gd
+player.gd::GDScript::4504515195125791::1794519216::0::1::::<>CharacterBody3D<><>0<>0<><>::

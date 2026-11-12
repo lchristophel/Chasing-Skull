@@ -15,3 +15,6 @@ script = ExtResource("1_g2els")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1563099470]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.90391785, 0)
 shape = SubResource("CapsuleShape3D_xrivr")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1730289770]
+transform = Transform3D(-0.99794406, -1.8588157e-09, 0.06409194, 0.050886005, 0.6079789, 0.7923209, -0.038966548, 0.79395324, -0.6067289, 0, 7.3741455, -3.3331604)

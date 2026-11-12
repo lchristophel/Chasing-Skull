@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://bqtpqim58ugu1"]
+
+[ext_resource type="PackedScene" uid="uid://baodhvet51due" path="res://art/voleur_lowpoly.glb" id="1_8xtm0"]
+
+[node name="CharacterBody3D" type="CharacterBody3D" unique_id=1010750938]
+
+[node name="Theft" parent="." unique_id=1582631528 instance=ExtResource("1_8xtm0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.019140482, 0, 0.021121979)
